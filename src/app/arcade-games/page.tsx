@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import GameCard from '@/components/features/GameCard'
+import GameCard from '../../components/features/GameCard'
 import { Gamepad2, Trophy } from 'lucide-react'
 
 const DIFFICULTY_LEVELS = ['All Levels', 'Casual', 'Medium', 'Expert']
